@@ -13,7 +13,7 @@ til post to elastic search updater
 
 "TIL Repo dir path"
 
-##### DB_Connection
+##### DB_CONNECTION
 
 {
     "server": "db server host",
