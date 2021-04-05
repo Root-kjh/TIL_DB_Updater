@@ -9,6 +9,10 @@ til post to elastic search updater
 
 "TIL Repo url"
 
+##### REPO_DIR
+
+"TIL Repo dir path"
+
 ##### DB_Connection
 
 {
