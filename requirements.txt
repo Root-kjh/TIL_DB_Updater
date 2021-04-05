@@ -1,3 +1,6 @@
 certifi==2020.12.5
 elasticsearch==7.12.0
+gitdb==4.0.7
+GitPython==3.1.14
+smmap==4.0.0
 urllib3==1.26.4
