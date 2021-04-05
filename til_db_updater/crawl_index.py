@@ -23,7 +23,7 @@ def crawl_index():
                         if m:
                             try:
                                 file_path = path+m.group(2)[2:-1]
-                                file_name = m.group(2)[2:-1].split("/")[-1]
+                                file_name = m.group(2)[2:-1].split("/")[-1].split(".md")[0].replace("_", " ")
                                 file_context = open(file_path).readlines()
                                 file_list.append([file_name, "/"+file+m.group(2)[2:-1], file_context])
                             except:
