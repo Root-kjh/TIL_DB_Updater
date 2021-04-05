@@ -25,7 +25,7 @@ def crawl_index():
                                 file_path = path+m.group(2)[2:-1]
                                 file_name = m.group(2)[2:-1].split("/")[-1]
                                 file_context = open(file_path).readlines()
-                                file_list.append([file_name, file_path, file_context])
+                                file_list.append([file_name, "/"+file+m.group(2)[2:-1], file_context])
                             except:
                                 pass
     return file_list
